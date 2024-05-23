@@ -17,7 +17,6 @@
     "@openmrs/esm-form-builder-app": "next",
     "@openmrs/esm-patient-programs-app": "next",
     "@openmrs/esm-system-admin-app": "next",
-    "@kenyaemr/esm-patient-registration-app": "next",
     "@openmrs/esm-login-app": "latest",
     "@openmrs/esm-patient-flags-app": "next",
     "@openmrs/esm-patient-orders-app": "next",
@@ -29,12 +28,13 @@
     "@openmrs/esm-stock-management-app": "next",
     "@openmrs/esm-patient-notes-app": "next",
     "@openmrs/esm-patient-lists-app": "next",
-    "@ampath/esm-preappointment-app": "next",
     "@openmrs/esm-patient-labs-app": "next",
     "@ampath/esm-lab-order-manifest-app": "next",
     "@ampath/esm-projectbeyond-app": "next",
     "@ampath/esm-ampath-core-app": "next",
-    "@ampath/esm-otz-app": "next"
+    "@ampath/esm-otz-app": "next",
+    "@ampath/esm-preappointment-app": "next",
+    "@kenyaemr/esm-patient-registration-app": "next"
   },
   "spaPath": "/amrs/spa",
   "apiUrl": "/amrs",

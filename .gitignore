@@ -2,3 +2,4 @@ configuration/frontend/
 configuration/*.zip
 node_modules
 frontend
+frontend.zip
