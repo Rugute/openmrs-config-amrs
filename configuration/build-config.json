@@ -34,6 +34,7 @@
     "@ampath/esm-ampath-core-app": "next",
     "@ampath/esm-otz-app": "next",
     "@ampath/esm-preappointment-app": "next",
+    "@ampath/esm-report-app": "next",
     "@kenyaemr/esm-patient-registration-app": "next"
   },
   "spaPath": "/amrs/spa",
