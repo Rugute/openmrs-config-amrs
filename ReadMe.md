@@ -1,6 +1,6 @@
-# OpenMRS config for the OpenMRS distribution for KenyaEMR
+# OpenMRS config for the OpenMRS distribution for AMRS (AMPATH Medical Records System)
 
-![AMRS OpenMRS 3.x Deployment](https://github.com/AMPATH/openmrs-config-amra/workflows/AMRS%20CI/badge.svg)
+![AMRS OpenMRS 3.x Deployment]
 
 This is the OpenMRS backend configuration for the [OpenMRS distribution AMRS](https://github.com/openmrs/openmrs-distro-AMRS).
 
