@@ -186,10 +186,52 @@
         "type": "obs",
         "uuid": "a899a9f2-1350-11df-a1f1-0026b9348838",
         "label": "Marital status",
-        "answerConceptSetUuid": "a899a9f2-1350-11df-a1f1-0026b9348838",
+        "answerConceptSetUuid": "a8a0a00e-1350-11df-a1f1-0026b9348838",
         "validation": {
           "required": true
-        }
+        },
+        "customConceptAnswers": [
+          {
+            "uuid": "a8b03712-1350-11df-a1f1-0026b9348838",
+            "label": "Married polygamous"
+          },
+          {
+            "uuid": "a8aa76b0-1350-11df-a1f1-0026b9348838",
+            "label": "Married monogamous"
+          },
+          {
+            "uuid": "a899ad58-1350-11df-a1f1-0026b9348838",
+            "label": "Divorced"
+          },
+          {
+            "uuid": "a899ae34-1350-11df-a1f1-0026b9348838",
+            "label": "Widowed"
+          },
+          {
+            "uuid": "a899af10-1350-11df-a1f1-0026b9348838",
+            "label": "Cohabiting"
+          },
+          {
+            "uuid": "a899ac7c-1350-11df-a1f1-0026b9348838",
+            "label": "Single"
+          },
+          {
+            "uuid": "a899aba0-1350-11df-a1f1-0026b9348838",
+            "label": "Separated"
+          },
+          {
+            "uuid": "7831f002-331d-4f07-bf91-6bb65cd31050",
+            "label": "Sexual Partner/Sexual Partner"
+          },
+          {
+            "uuid": "a89ad3a4-1350-11df-a1f1-0026b9348838",
+            "label": "Not Applicable"
+          },
+          {
+            "uuid": "a8aaf3e2-1350-11df-a1f1-0026b9348838",
+            "label": "Other Non-Coded"
+          }
+        ]
       },
       {
         "id": "occupation",
@@ -205,10 +247,31 @@
         "type": "obs",
         "uuid": "a89e48ae-1350-11df-a1f1-0026b9348838",
         "label": "Education",
-        "answerConceptSetUuid": "a89e48ae-1350-11df-a1f1-0026b9348838",
         "validation": {
           "required": true
-        }
+        },
+        "customConceptAnswers": [
+          {
+            "uuid": "a899e0ac-1350-11df-a1f1-0026b9348838",
+            "label": "None"
+          },
+          {
+            "uuid": "a8afe910-1350-11df-a1f1-0026b9348838",
+            "label": "Primary school education"
+          },
+          {
+            "uuid": "a8afe9d8-1350-11df-a1f1-0026b9348838",
+            "label": "Secondary school education"
+          },
+          {
+            "uuid": "a8afea96-1350-11df-a1f1-0026b9348838",
+            "label": "College, university or polytechnic"
+          },
+          {
+            "uuid": "a89e4728-1350-11df-a1f1-0026b9348838",
+            "label": "University"
+          }
+        ]
       },
       {
         "id": "nextOfKinName",

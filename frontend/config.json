@@ -9,11 +9,7 @@
       "src": "https://poc-test-builds.fra1.digitaloceanspaces.com/@brand/logo_white.svg",
       "name": "Ampath POC"
     },
-    "extensionSlots": {
-      "app-menu-slot": {
-        "remove": ["dispensing-link", "system-administration-app-menu-link"]
-      }
-    }
+    "en": {}
   },
   "@openmrs/esm-patient-programs-app": {
     "customUrl": ""
@@ -79,9 +75,8 @@
   },
   "@ampath/esm-patient-registration-app": {
     "defaultPatientIdentifierTypes": [
-      "58a47054-1359-11df-a1f1-0026b9348838",
-      "cf5362b2-8049-4442-b3c6-36f870e320cb",
-      "7d2471f3-4fa3-4d75-a623-2ef1021f13ac"
+      "58a4732e-1359-11df-a1f1-0026b9348838",
+      "58a47054-1359-11df-a1f1-0026b9348838"
     ],
     "sections": [
       "demographics",
@@ -191,100 +186,29 @@
         "type": "obs",
         "uuid": "a899a9f2-1350-11df-a1f1-0026b9348838",
         "label": "Marital status",
+        "answerConceptSetUuid": "a899a9f2-1350-11df-a1f1-0026b9348838",
         "validation": {
           "required": true
-        },
-        "customConceptAnswers": [
-          {
-            "uuid": "159715AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Married polygamous"
-          },
-          {
-            "uuid": "5555AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Married monogamous"
-          },
-          {
-            "uuid": "1058AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Divorced"
-          },
-          {
-            "uuid": "1059AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Widowed"
-          },
-          {
-            "uuid": "1060AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Cohabiting"
-          },
-          {
-            "uuid": "1057AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Single"
-          }
-        ]
+        }
       },
       {
         "id": "occupation",
-        "type": "person attribute",
-        "uuid": "9e86409f-9c20-42d0-aeb3-f29a4ca0a7a0",
+        "type": "obs",
+        "uuid": "a8a0a00e-1350-11df-a1f1-0026b9348838",
+        "answerConceptSetUuid": "a8a0a00e-1350-11df-a1f1-0026b9348838",
         "validation": {
           "required": true
-        },
-        "customConceptAnswers": [
-          {
-            "uuid": "1538AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Farmer"
-          },
-          {
-            "uuid": "1540AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Employee"
-          },
-          {
-            "uuid": "1539AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Trader"
-          },
-          {
-            "uuid": "159465AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Student"
-          },
-          {
-            "uuid": "159466AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Driver"
-          },
-          {
-            "uuid": "1107AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "None"
-          },
-          {
-            "uuid": "5622AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Other"
-          }
-        ]
+        }
       },
       {
         "id": "education",
         "type": "obs",
         "uuid": "a89e48ae-1350-11df-a1f1-0026b9348838",
         "label": "Education",
+        "answerConceptSetUuid": "a89e48ae-1350-11df-a1f1-0026b9348838",
         "validation": {
           "required": true
-        },
-        "customConceptAnswers": [
-          {
-            "uuid": "1107AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "None"
-          },
-          {
-            "uuid": "1713AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Primary school education"
-          },
-          {
-            "uuid": "1714AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "Secondary school education"
-          },
-          {
-            "uuid": "159785AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            "label": "College, university or polytechnic"
-          }
-        ]
+        }
       },
       {
         "id": "nextOfKinName",
@@ -297,92 +221,7 @@
         "type": "person attribute",
         "uuid": "5730994e-c267-426b-87b6-c152b606973d",
         "label": "Relationship",
-        "customConceptAnswers": [
-          {
-            "uuid": "7878e432-1359-11df-a1f1-0026b9348838",
-            "label": "Stepchild/Stepparent"
-          },
-          {
-            "uuid": "b31657ef-4784-4e22-96df-d864651aa715",
-            "label": "Peer/Patient"
-          },
-          {
-            "uuid": "af78531e-98ab-41da-be3a-6a871ecbf8c0",
-            "label": "Other non-coded/Other non-coded"
-          },
-          {
-            "uuid": "7a755398-daed-4e64-8efd-b187c661caab",
-            "label": "Nurse/Patient"
-          },
-          {
-            "uuid": "01bc0cf5-d428-427f-be13-305eb9cad7ba",
-            "label": "Guardian/Child"
-          },
-          {
-            "uuid": "7878ea18-1359-11df-a1f1-0026b9348838",
-            "label": "Sexual Partner/Sexual Partner"
-          },
-          {
-            "uuid": "7878e914-1359-11df-a1f1-0026b9348838",
-            "label": "Household Member/Head of Household"
-          },
-          {
-            "uuid": "7878e81a-1359-11df-a1f1-0026b9348838",
-            "label": "Tenant/Renter/Landlord"
-          },
-          {
-            "uuid": "7878e720-1359-11df-a1f1-0026b9348838",
-            "label": "Employee/Employer"
-          },
-          {
-            "uuid": "7878e626-1359-11df-a1f1-0026b9348838",
-            "label": "Friend/Friend"
-          },
-          {
-            "uuid": "7878e52c-1359-11df-a1f1-0026b9348838",
-            "label": "Foster Child/Foster Parent"
-          },
-          {
-            "uuid": "7878d348-1359-11df-a1f1-0026b9348838",
-            "label": "Parent/Child"
-          },
-          {
-            "uuid": "7878e338-1359-11df-a1f1-0026b9348838",
-            "label": "Cousin/Cousin"
-          },
-          {
-            "uuid": "7878e23e-1359-11df-a1f1-0026b9348838",
-            "label": "Co-wife/Co-wife"
-          },
-          {
-            "uuid": "7878e144-1359-11df-a1f1-0026b9348838",
-            "label": "Grandchild/Grandparent"
-          },
-          {
-            "uuid": "7878e040-1359-11df-a1f1-0026b9348838",
-            "label": "Child-in-law/Parent-in-law"
-          },
-          {
-            "uuid": "7878df3c-1359-11df-a1f1-0026b9348838",
-            "label": "Spouse/Spouse"
-          },
-          {
-            "uuid": "7878de42-1359-11df-a1f1-0026b9348838",
-            "label": "Caretaker/Patient"
-          },
-          {
-            "uuid": "7878dd3e-1359-11df-a1f1-0026b9348838",
-            "label": "Aunt/Uncle/Niece/Nephew"
-          },
-          {
-            "uuid": "7878dc30-1359-11df-a1f1-0026b9348838",
-            "label": "Sibling/Sibling"
-          },
-          {
-            "uuid": "7878d898-1359-11df-a1f1-0026b9348838",
-            "label": "Doctor/Patient"
-          }
-        ]
+        "answerConceptSetUuid": "a899a9f2-1350-11df-a1f1-0026b9348838"
       },
       {
         "id": "nextOfkinPhone",
@@ -495,7 +334,8 @@
       "serviceConceptSetUuid": "d2ece9e9-3907-440d-b5c3-5d3b148594f5",
       "statusConceptSetUuid": "3ab190c1-4592-421e-bc5e-5e0524c9d785",
       "defaultStatusConceptUuid": "89d01aa5-0ab0-4626-934b-37766b4cd779",
-      "defaultTransitionStatus": "89d01aa5-0ab0-4626-934b-37766b4cd779"
+      "defaultTransitionStatus": "89d01aa5-0ab0-4626-934b-37766b4cd779",
+      "historicalObsConceptUuid": ["89d01aa5-0ab0-4626-934b-37766b4cd779"]
     },
     "priorityConfigs": [
       {
@@ -512,9 +352,14 @@
     "visitQueueNumberAttributeUuid": "c61ce16f-272a-41e7-9924-4c555d0932c5",
     "showQueueTableTab": true,
     "defaultIdentifierTypes": [
+      "58a4732e-1359-11df-a1f1-0026b9348838",
       "05ee9cf4-7242-4a17-b4d4-00f707265c8a",
       "f85081e2-b4be-4e48-b3a4-7994b69bb101"
-    ]
+    ],
+    "defaultFacilityUrl": "/ws/rest/v1/kenyaemr/default-facility",
+    "customPatientChartUrl": "ng2-amrs/#/patient-dashboard/patient/",
+    "customPatientIdUrl": "/ws/rest/v1/kenyaemr/patient?patientUuid",
+    "customPatientChartText": "AMRS POC Profile"
   },
   "@openmrs/esm-laboratory-app": {
     "enableSendingLabTestsByEmail": true,
