@@ -9,7 +9,11 @@
       "src": "https://poc-test-builds.fra1.digitaloceanspaces.com/@brand/logo_white.svg",
       "name": "Ampath POC"
     },
-    "en": {}
+    "extensionSlots": {
+      "app-menu-slot": {
+        "remove": ["dispensing-link", "system-administration-app-menu-link"]
+      }
+    }
   },
   "@openmrs/esm-patient-programs-app": {
     "customUrl": ""
@@ -20,6 +24,7 @@
     "Brand color #3": "#0055a5"
   },
   "@openmrs/esm-form-entry-app": {
+    "customEncounterDatetime": true,
     "dataSources": {
       "monthlySchedule": true
     }
@@ -402,5 +407,8 @@
         ]
       }
     ]
+  },
+  "@openmrs/esm-form-builder-app": {
+    "showSchemaSaveWarning": false
   }
 }

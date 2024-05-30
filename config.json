@@ -387,7 +387,7 @@
     "orderEncounterType": "e481dcd3-e9f4-49ee-9612-db8d2ea6abac"
   },
   "@openmrs/esm-patient-medications-app": {
-    "daysDurationUnit": "a899b9c4-1350-11df-a1f1-0026b9348838"
+    "daysDurationUnit": "a899b9c4-1350-11df-a1f1-0026b9348838" a899b9c4-1350-11df-a1f1-0026b9348838
   },
   "@openmrs/esm-service-queues-app": {
     "concepts": {
@@ -467,3 +467,9 @@
     ]
   }
 }
+,
+
+  "@openmrs/esm-form-builder-app": {
+   // "showSchemaSaveWarning": false,
+  }
+  
