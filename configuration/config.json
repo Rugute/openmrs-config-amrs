@@ -361,9 +361,9 @@
       "05ee9cf4-7242-4a17-b4d4-00f707265c8a",
       "f85081e2-b4be-4e48-b3a4-7994b69bb101"
     ],
-    "defaultFacilityUrl": "/ws/rest/v1/kenyaemr/default-facility",
-    "customPatientChartUrl": "ng2-amrs/#/patient-dashboard/patient/",
-    "customPatientIdUrl": "/ws/rest/v1/kenyaemr/patient?patientUuid",
+    "defaultFacilityUrl": "/ws/rest/v1/amrscore/default-facility",
+    "customPatientChartUrl": "/ng2-amrs/#/patient-dashboard/patient/",
+    "customPatientIdUrl": "/ws/rest/v1/amrscore/patient?patientUuid",
     "customPatientChartText": "AMRS POC Profile"
   },
   "@openmrs/esm-laboratory-app": {

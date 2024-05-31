@@ -28,6 +28,7 @@
     "@openmrs/esm-patient-lists-app": "next",
     "@openmrs/esm-patient-labs-app": "next",
     "@openmrs/esm-form-entry-app": "5.0.1-pre.2592",
+    "@openmrs/esm-radiology-app": "next",
     "@ampath/esm-lab-order-manifest-app": "next",
     "@ampath/esm-ampath-core-app": "next",
     "@ampath/esm-otz-app": "next",
@@ -35,6 +36,8 @@
     "@ampath/esm-patient-registration-app": "next",
     "@ampath/esm-patient-flags-app": "next",
     "@ampath/esm-version-app": "next",
+    "@ampath/esm-hts-app": "next",
+    "@ampath/esm-report-app": "next",
     "@ugandaemr/esm-bed-management-app": "next"
   },
   "spaPath": "/amrs/spa",
