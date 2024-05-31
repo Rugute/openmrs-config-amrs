@@ -30,6 +30,7 @@
     }
   },
   "@openmrs/esm-patient-forms-app": {
+    "customFormsUrl": "/ws/rest/v1/amrscore/forms",
     "showRecommendedFormsTab": true,
     "showHtmlFormEntryForms": false
   },
