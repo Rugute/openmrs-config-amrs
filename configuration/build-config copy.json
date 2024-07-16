@@ -2,7 +2,7 @@
   "frontendModules": {
     "@openmrs/esm-devtools-app": "next",
     "@openmrs/esm-implementer-tools-app": "5.2.1-pre.1094",
-    "@openmrs/esm-primary-navigation-app": "5.2.1-pre.1094",
+    "@openmrs/esm-primary-navigation-app": "5.6.1-pre.1855",
     "@openmrs/esm-home-app": "next",
     "@openmrs/esm-patient-allergies-app": "next",
     "@openmrs/esm-patient-appointments-app": "next",

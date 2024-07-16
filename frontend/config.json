@@ -6,8 +6,7 @@
   },
   "@openmrs/esm-primary-navigation-app": {
     "logo": {
-      "src": "https://poc-test-builds.fra1.digitaloceanspaces.com/@brand/logo_white.svg",
-      "name": "Ampath POC"
+      "src": "https://poc-test-builds.fra1.digitaloceanspaces.com/@brand/logo_white.svg"
     },
     "extensionSlots": {
       "app-menu-slot": {
@@ -29,10 +28,7 @@
       "monthlySchedule": true
     }
   },
-  "@openmrs/esm-patient-forms-app": {
-    "showRecommendedFormsTab": true,
-    "showHtmlFormEntryForms": false
-  },
+  "@openmrs/esm-patient-forms-app": {},
   "@openmrs/esm-patient-chart-app": {
     "showServiceQueueFields": true,
     "showUpcomingAppointments": true,
@@ -79,10 +75,7 @@
     }
   },
   "@ampath/esm-patient-registration-app": {
-    "defaultPatientIdentifierTypes": [
-      "58a4732e-1359-11df-a1f1-0026b9348838",
-      "58a47054-1359-11df-a1f1-0026b9348838"
-    ],
+    "defaultPatientIdentifierTypes": ["58a4732e-1359-11df-a1f1-0026b9348838"],
     "sections": [
       "demographics",
       "contact",
