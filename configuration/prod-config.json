@@ -6,12 +6,8 @@
   },
   "@openmrs/esm-primary-navigation-app": {
     "logo": {
-      "src": "https://poc-test-builds.fra1.digitaloceanspaces.com/@brand/logo_white.svg"
-    },
-    "extensionSlots": {
-      "app-menu-slot": {
-        "remove": ["dispensing-link", "system-administration-app-menu-link"]
-      }
+      "src": "https://poc-test-builds.fra1.digitaloceanspaces.com/@brand/logo_white.svg",
+      "name": "Ampath POC"
     }
   },
   "@openmrs/esm-patient-programs-app": {
@@ -23,13 +19,13 @@
     "Brand color #3": "#0055a5"
   },
   "@openmrs/esm-form-entry-app": {
-    "customEncounterDatetime": true,
     "dataSources": {
       "monthlySchedule": true
     }
   },
   "@openmrs/esm-patient-forms-app": {
-    "customFormsUrl": "/ws/rest/v1/amrs/forms"
+    "showRecommendedFormsTab": true,
+    "showHtmlFormEntryForms": false
   },
   "@openmrs/esm-patient-chart-app": {
     "showServiceQueueFields": true,
@@ -77,7 +73,10 @@
     }
   },
   "@ampath/esm-patient-registration-app": {
-    "defaultPatientIdentifierTypes": ["58a4732e-1359-11df-a1f1-0026b9348838"],
+    "defaultPatientIdentifierTypes": [
+      "58a4732e-1359-11df-a1f1-0026b9348838",
+      "58a47054-1359-11df-a1f1-0026b9348838"
+    ],
     "sections": [
       "demographics",
       "contact",
@@ -186,10 +185,51 @@
         "type": "obs",
         "uuid": "a899a9f2-1350-11df-a1f1-0026b9348838",
         "label": "Marital status",
-        "answerConceptSetUuid": "a899a9f2-1350-11df-a1f1-0026b9348838",
         "validation": {
           "required": true
-        }
+        },
+        "customConceptAnswers": [
+          {
+            "uuid": "a8b03712-1350-11df-a1f1-0026b9348838",
+            "label": "Married polygamous"
+          },
+          {
+            "uuid": "a8aa76b0-1350-11df-a1f1-0026b9348838",
+            "label": "Married monogamous"
+          },
+          {
+            "uuid": "a899ad58-1350-11df-a1f1-0026b9348838",
+            "label": "Divorced"
+          },
+          {
+            "uuid": "a899ae34-1350-11df-a1f1-0026b9348838",
+            "label": "Widowed"
+          },
+          {
+            "uuid": "a899af10-1350-11df-a1f1-0026b9348838",
+            "label": "Cohabiting"
+          },
+          {
+            "uuid": "a899ac7c-1350-11df-a1f1-0026b9348838",
+            "label": "Single"
+          },
+          {
+            "uuid": "a899aba0-1350-11df-a1f1-0026b9348838",
+            "label": "Separated"
+          },
+          {
+            "uuid": "7831f002-331d-4f07-bf91-6bb65cd31050",
+            "label": "Sexual Partner/Sexual Partner"
+          },
+          {
+            "uuid": "a89ad3a4-1350-11df-a1f1-0026b9348838",
+            "label": "Not Applicable"
+          },
+          {
+            "uuid": "a8aaf3e2-1350-11df-a1f1-0026b9348838",
+            "label": "Other Non-Coded"
+          }
+        ]
       },
       {
         "id": "occupation",
@@ -205,10 +245,31 @@
         "type": "obs",
         "uuid": "a89e48ae-1350-11df-a1f1-0026b9348838",
         "label": "Education",
-        "answerConceptSetUuid": "a89e48ae-1350-11df-a1f1-0026b9348838",
         "validation": {
           "required": true
-        }
+        },
+        "customConceptAnswers": [
+          {
+            "uuid": "a899e0ac-1350-11df-a1f1-0026b9348838",
+            "label": "None"
+          },
+          {
+            "uuid": "a8afe910-1350-11df-a1f1-0026b9348838",
+            "label": "Primary school education"
+          },
+          {
+            "uuid": "a8afe9d8-1350-11df-a1f1-0026b9348838",
+            "label": "Secondary school education"
+          },
+          {
+            "uuid": "a8afea96-1350-11df-a1f1-0026b9348838",
+            "label": "College, university or polytechnic"
+          },
+          {
+            "uuid": "a89e4728-1350-11df-a1f1-0026b9348838",
+            "label": "University"
+          }
+        ]
       },
       {
         "id": "nextOfKinName",
@@ -356,10 +417,10 @@
       "05ee9cf4-7242-4a17-b4d4-00f707265c8a",
       "f85081e2-b4be-4e48-b3a4-7994b69bb101"
     ],
-    "defaultFacilityUrl": "/ws/rest/v1/amrscore/default-facility",
-    "customPatientChartUrl": "/ng2-amrs/#/patient-dashboard/patient/",
-    "customPatientIdUrl": "/ws/rest/v1/amrscore/patient?patientUuid",
-    "customPatientChartText": "AMRS POC Profile"
+    "defaultFacilityUrl": "/ws/rest/v1/kenyaemr/default-facility",
+    "customPatientChartUrl": "/openmrs/kenyaemr/clinician/clinicianViewPatient.page?patientId",
+    "customPatientIdUrl": "/ws/rest/v1/kenyaemr/patient?patientUuid",
+    "customPatientChartText": "2.X Profile"
   },
   "@openmrs/esm-laboratory-app": {
     "enableSendingLabTestsByEmail": true,
@@ -402,8 +463,5 @@
         ]
       }
     ]
-  },
-  "@openmrs/esm-form-builder-app": {
-    "showSchemaSaveWarning": false
   }
 }
