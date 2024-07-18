@@ -410,18 +410,10 @@
     "extensionSlots": {
       "patient-clinical-view-slot": {
         "configure": {
-          "maternal-and-child-health-slot": {
-            
-          },
-          "hiv-care-and-treatment-slot": {
-            
-          },
-          "defaulter-tracing-dashboard-link": {
-            
-          },
-          "labour-and-delivery-link": {
-            
-          }
+          "maternal-and-child-health-slot": {},
+          "hiv-care-and-treatment-slot": {},
+          "defaulter-tracing-dashboard-link": {},
+          "labour-and-delivery-link": {}
         }
       }
     },
